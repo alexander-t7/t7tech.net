@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.t7tech\.net [NC]
+RewriteRule (.*) https://t7tech.net/$1 [L,R=301]

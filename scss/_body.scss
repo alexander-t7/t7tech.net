@@ -1,0 +1,166 @@
+@import "variables";
+
+// body
+
+body {
+  margin: 0 1rem;
+  background-color: $light-gray;
+  font-family: "Open Sans", sans-serif;
+  @media only screen and (min-width: 768px) {
+    margin: 0 1rem 1.5rem 1.5rem;
+    }
+}
+
+// typography
+
+h1 {
+  margin: 1rem 0 0 0;
+  font-size: 2rem;
+  font-weight: 600;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: $dark-gray;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+h3 {
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: $blue;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+p {
+  font-size: 1rem;
+}
+
+code {
+  position: relative;
+  top: -2px;
+  margin: 0 0 0 3px;
+  padding: 1px 3px;
+  border-radius: 3px;
+  background-color: $gray;
+  font-family: "Fira Code", monospace;
+  font-size: 0.75rem;
+}
+
+span.flag-icon {
+  margin-left: 3px;
+}
+
+// links
+
+a:link {
+  color: $black;
+  text-decoration: underline dotted;
+}
+
+a:visited {
+  color: $black;
+  text-decoration: underline dotted;
+}
+
+a:hover {
+  text-decoration: underline solid;
+  color: $purple;
+  transition: 0.3s;
+}
+
+// lists
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+  li {
+    padding-left: 20px;
+    text-indent: -20px;
+  }
+  li.hash-bullet:before {
+    content: "#";
+    padding-right: 10px;
+    color: $red;
+    font-weight: 600;
+  }
+  li.gt-bullet:before {
+    content: ">";
+    padding-right: 10px;
+    color: $red;
+    font-weight: 600;
+  }
+  img.favicon {
+    position: relative;
+    top: 4px;
+    padding-left: 8px;
+    height: 1.25rem;
+  }
+  i {
+    padding-left: 20px;
+  }
+  span.flag-icon {
+    margin-left: 6px;
+  }
+  span.dates {
+    font-family: "Fira Code", monospace;
+    font-size: 0.9rem;
+  }
+}
+
+// styles by section
+
+header {
+  img {
+    border-radius: 50%;
+    height: 6rem;
+    margin: 0 auto 0 auto;
+    @media only screen and (max-width: 768px) {
+      display: block;
+      margin: 1rem auto;
+    }
+  }
+}
+
+div.align-center {
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+footer {
+  p {
+    margin: 0 0 1rem 0;
+    @media only screen and (max-width: 768px) {
+      margin: 0 0 1.5rem 0;
+    }
+  }
+  div.social-banner {
+    font-size: 1.5rem;
+    i {
+      padding-right: 3px;
+      @media only screen and (max-width: 768px) {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
