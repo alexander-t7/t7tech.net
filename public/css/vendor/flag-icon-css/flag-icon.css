@@ -27,6 +27,15 @@
 .flag-icon-dk {
   background-image: url(dk.svg);
 }
+.flag-icon-fr {
+  background-image: url(fr.svg);
+}
+.flag-icon-hu {
+  background-image: url(hu.svg);
+}
+.flag-icon-mx {
+  background-image: url(mx.svg);
+}
 .flag-icon-se {
   background-image: url(se.svg);
 }

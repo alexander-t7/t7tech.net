@@ -191,6 +191,11 @@ header img {
   }
 }
 
+#languages span.flag-icon {
+  margin-left: 0;
+  margin-right: 6px;
+}
+
 @media only screen and (max-width: 768px) {
   div.align-center {
     display: -webkit-box;
