@@ -43,7 +43,7 @@ div.centered-v-h {
           align-items: center;
 }
 
-div.centered-v-h h1, div.centered-v-h h3, div.centered-v-h p {
+div.centered-v-h h1, div.centered-v-h p {
   margin: 0;
   padding: 0;
   line-height: 1.5;
